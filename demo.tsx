@@ -10,7 +10,6 @@ import LocalHospitalIcon from '@mui/icons-material/LocalHospital';
 import MonitorHeartIcon from '@mui/icons-material/MonitorHeart';
 import HotelIcon from '@mui/icons-material/Hotel';
 import ChildCareIcon from '@mui/icons-material/ChildCare';
-import RepeatIcon from '@mui/icons-material/Repeat';
 import ChildFriendlyIcon from '@mui/icons-material/ChildFriendly';
 import Typography from '@mui/material/Typography';
 
