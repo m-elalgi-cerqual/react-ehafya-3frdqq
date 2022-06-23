@@ -11,7 +11,9 @@ import MonitorHeartIcon from '@mui/icons-material/MonitorHeart';
 import HotelIcon from '@mui/icons-material/Hotel';
 import ChildCareIcon from '@mui/icons-material/ChildCare';
 import RepeatIcon from '@mui/icons-material/Repeat';
+import ChildFriendlyIcon from '@mui/icons-material/ChildFriendly';
 import Typography from '@mui/material/Typography';
+
 
 export default function CustomizedTimeline() {
   return (
@@ -93,18 +95,26 @@ export default function CustomizedTimeline() {
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
+      <TimelineOppositeContent
+          sx={{ m: 'auto 0' }}
+          align="right"
+          variant="body2"
+          color="text.secondary"
+        >
+          29/05/2022 12h25
+        </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
           <TimelineDot color="secondary">
-            <RepeatIcon />
+            <ChildFriendlyIcon />
           </TimelineDot>
           <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
           <Typography variant="h6" component="span">
-            Repeat
+            Dar
           </Typography>
-          <Typography>Because this is the life you love!</Typography>
+          <Typography>Home sweet home! Welcome baby</Typography>
         </TimelineContent>
       </TimelineItem>
     </Timeline>
